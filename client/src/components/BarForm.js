@@ -30,7 +30,7 @@ const BarForm = (props) => {
 
       <label htmlFor="address">
         Address:
-        <input id="address" type="text" name="address" onChange={handleChange} value={barRecord.value} />
+        <input id="address" type="text" name="address" onChange={handleChange} value={barRecord.address} />
       </label>
 
       <label htmlFor="hoursOfOperation">
